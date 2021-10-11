@@ -45,8 +45,10 @@ table, tr, td, th {
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 0;
-  vertical-align: top;
   text-align: left; }
+
+table, tr, td:not([valign]), th:not([valign]) {
+  vertical-align: top; }
 
 @media only screen {
   html {
@@ -245,6 +247,10 @@ p.text-right {
     margin: 0 auto !important;
     float: none !important;
     text-align: center !important; } }
+
+img.float-right {
+  float: right;
+  text-align: right; }
 
 img.float-center {
   margin: 0 auto;
@@ -470,13 +476,13 @@ th.callout-inner {
 table.menu {
   width: 580px; }
   table.menu th.menu-item {
-    padding: 10px;
-    padding-right: 10px; }
+    padding: 1px;
+    padding-right: 25px; }
     table.menu th.menu-item a {
       color: #333333; }
 
 table.menu.vertical th.menu-item {
-  padding: 10px;
+  padding: 1px;
   padding-right: 0;
   display: block; }
   table.menu.vertical th.menu-item a {
@@ -551,6 +557,9 @@ html,
 .header-text {
   background: #f7f7f7;
   margin-bottom: 10px; }
+  .header-text .header-menu {
+    margin-top: 10px;
+    margin-bottom: -5px; }
   .header-text .text-link {
     text-decoration: none;
     font-family: Targetica,Helvetica,sans-serif;
@@ -558,12 +567,62 @@ html,
     font-weight: normal;
     line-height: 16px; }
 
-.header-banner .banner-text h5 {
-  color: #ffffff;
-  font-family: Targetica,Helvetica,sans-serif;
-  font-size: 20px;
-  line-height: 22px;
-  font-weight: normal;
-  text-align: center; }
-  .header-banner .banner-text h5 span {
-    font-weight: 600; }
+.header-banner {
+  margin-bottom: 5px; }
+  .header-banner > tbody > tr > th {
+    padding: 0px !important; }
+  .header-banner .banner-text h5 {
+    color: #ffffff;
+    font-family: Targetica,Helvetica,sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px; }
+    .header-banner .banner-text h5 span {
+      font-weight: 600; }
+  .header-banner .banner-text .header-button {
+    margin: 12px 0px 0px 30px; }
+    .header-banner .banner-text .header-button > tbody > tr > td > table > tbody > tr > td {
+      border-radius: 3px;
+      border: none; }
+  .header-banner .target-logo-top {
+    width: 325px !important;
+    margin-top: -3px;
+    margin-right: -36px;
+    max-width: none; }
+
+.rug-area {
+  margin-top: 10px;
+  background: #545c63; }
+  .rug-area th {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .rug-area span {
+    color: white; }
+  .rug-area .rug {
+    font-size: 20px; }
+
+.section-main {
+  width: 640px; }
+  .section-main .rugs-image {
+    margin-top: 10px; }
+  .section-main .prep-text {
+    background: #272b4c; }
+    .section-main .prep-text th {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .section-main .prep-text span {
+      color: white; }
+  .section-main .rug-section tbody > tr > th {
+    padding: 0px 0px 5px 0px; }
+  .section-main .animal {
+    margin: 10px 0px 10px 0px; }
+    .section-main .animal .kindful {
+      padding: 0px 5px 0px 0px; }
+    .section-main .animal .prettylitter {
+      padding: 0px 0px 0px 5px; }
