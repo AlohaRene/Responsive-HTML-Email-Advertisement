@@ -623,6 +623,44 @@ html,
   .section-main .animal {
     margin: 10px 0px 10px 0px; }
     .section-main .animal .kindful {
-      padding: 0px 5px 0px 0px; }
+      padding: 0px 4px 0px 0px !important; }
     .section-main .animal .prettylitter {
-      padding: 0px 0px 0px 5px; }
+      padding: 0px 0px 0px 4px !important; }
+  .section-main .animal-toys .cat {
+    padding: 0px 4px 0px 0px; }
+  .section-main .animal-toys .cat-toy {
+    padding: 0px 4px 0px 4px; }
+  .section-main .animal-toys .cat-treats {
+    padding: 0px 4px 0px 4px; }
+  .section-main .animal-toys .cat-scratchers {
+    padding: 0px 0px 0px 4px; }
+  .section-main .nfl-text {
+    margin-top: 10px;
+    background: #472f5f; }
+    .section-main .nfl-text th {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .section-main .nfl-text span {
+      color: white; }
+  .section-main .coffe-text {
+    margin-top: 10px;
+    background: #424242; }
+    .section-main .coffe-text th {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .section-main .coffe-text span {
+      color: white; }
+  .section-main .discover-text {
+    margin-top: 10px;
+    background: #333333; }
+    .section-main .discover-text th {
+      text-align: center;
+      vertical-align: middle;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+    .section-main .discover-text span {
+      color: white; }
