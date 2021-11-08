@@ -545,9 +545,6 @@ table.menu.text-center a {
   th.small-4 {
     display: inline-block !important;
     width: 33.33333% !important; }
-  th.small-5 {
-    display: inline-block !important;
-    width: 41.66667% !important; }
   th.small-6 {
     display: inline-block !important;
     width: 50% !important; }
@@ -575,7 +572,7 @@ table.menu.text-center a {
 body,
 html,
 .body {
-  background: #00ff7f !important; }
+  background: #fff !important; }
 
 .header .target-logo-top {
   width: 34px; }
@@ -612,11 +609,6 @@ html,
     .header-banner .banner-text .header-button > tbody > tr > td > table > tbody > tr > td {
       border-radius: 3px;
       border: none; }
-  .header-banner .target-logo-top {
-    width: 325px !important;
-    margin-top: -3px;
-    margin-right: -36px;
-    max-width: none; }
 
 .rug-area {
   margin-top: 10px;
@@ -645,21 +637,39 @@ html,
     .section-main .prep-text span {
       color: white; }
   .section-main .rug-section tbody > tr > th {
-    padding: 0px 0px 5px 0px; }
+    padding: 0px 0px 5px 0px !important; }
   .section-main .animal {
     margin: 10px 0px 10px 0px; }
     .section-main .animal .kindful {
-      padding: 0px 4px 0px 0px !important; }
+      padding-bottom: 0px;
+      padding-left: 0px;
+      padding-right: 4px;
+      padding-top: 0; }
     .section-main .animal .prettylitter {
-      padding: 0px 0px 0px 4px !important; }
+      padding-bottom: 0px;
+      padding-left: 4px;
+      padding-right: 0px;
+      padding-top: 0; }
   .section-main .animal-toys .cat {
-    padding: 0px 4px 0px 0px !important; }
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 0px; }
   .section-main .animal-toys .cat-toy {
-    padding: 0px 4px 0px 4px !important; }
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 4px; }
   .section-main .animal-toys .cat-treats {
-    padding: 0px 4px 0px 4px !important; }
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 4px; }
   .section-main .animal-toys .cat-scratchers {
-    padding: 0px 0px 0px 4px !important; }
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 4px; }
   .section-main .nfl-text {
     margin-top: 10px;
     background: #472f5f; }
@@ -687,9 +697,15 @@ html,
   .section-main .coffe-images {
     margin-top: 10px; }
     .section-main .coffe-images .coffee-maker {
-      padding: 0px 4px 0px 0px !important; }
+      padding-top: 0px;
+      padding-right: 4px;
+      padding-bottom: 0px;
+      padding-left: 0px; }
     .section-main .coffe-images .coffee {
-      padding: 0px 0px 0px 4px !important; }
+      padding-top: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-left: 4px; }
   .section-main .discover-text {
     margin-top: 10px;
     background: #333333; }
@@ -702,14 +718,8 @@ html,
       color: white; }
   .section-main .pickup-delivery-section {
     margin-top: 10px; }
-    .section-main .pickup-delivery-section .same-day {
-      padding: 0px 4px 0px 0px !important; }
-    .section-main .pickup-delivery-section .drive-up {
-      padding: 0px 4px 0px 4px !important; }
-    .section-main .pickup-delivery-section .order-pick-up {
-      padding: 0px 8px 0px 4px !important; }
-    .section-main .pickup-delivery-section .learn-more {
-      padding: 0px 0px 0px 4px !important; }
+    .section-main .pickup-delivery-section > tbody > tr > th {
+      padding: 0px !important; }
   .section-main .greeting-section {
     margin-top: 10px; }
     .section-main .greeting-section .greeting-section-text {
@@ -739,6 +749,8 @@ html,
       font-size: 10px; }
   .section-main .tony .test-row > tbody > tr > th {
     padding: 0px !important; }
+  .section-main .tony .test-row .outter {
+    background-color: #cc0000; }
   .section-main .offer-details-section {
     margin-top: 10px;
     background: #cc0000; }
@@ -825,12 +837,16 @@ html,
 @media only screen and (max-width: 596px) {
   .header-banner > tbody > tr > th {
     background-color: #4388c9; }
+  .header-banner .banner-text h5 {
+    margin: 0px 0px 10px 0px !important; }
+    .header-banner .banner-text h5 span {
+      font-weight: 600; }
   .header-banner .banner-text .header-button {
-    margin: 12px 0px 0px 100px; }
-  .header-banner .target-logo-top {
-    margin-top: -30px; }
+    margin: 0 auto !important; }
+  .header-banner .header-image-column > table > tbody > tr > th {
+    padding-left: 60px !important; }
   .rug-area .rug {
-    font-size: 15px; }
+    font-size: 18px !important; }
   .section-main {
     width: 640px; }
     .section-main .rugs-image {
@@ -851,7 +867,9 @@ html,
     .section-main .animal {
       margin: 10px 0px 10px 0px; }
       .section-main .animal .kindful {
-        padding: 0px 0px 4px 0px !important; }
+        padding: 0px !important; }
+      .section-main .animal > tbody > tr > th {
+        padding: 0px !important; }
       .section-main .animal .prettylitter {
         padding: 0px 0px 0px 0px !important; }
     .section-main .animal-toys .cat {
@@ -873,17 +891,15 @@ html,
     .section-main .coffe-images {
       margin-top: 10px; }
       .section-main .coffe-images .coffee-maker {
-        padding: 0px !important; }
-        .section-main .coffe-images .coffee-maker img {
-          padding-left: 1px !important;
-          width: 172px;
-          max-width: none; }
+        padding-top: 0px !important;
+        padding-right: 4px !important;
+        padding-bottom: 0px !important;
+        padding-left: 0px !important; }
       .section-main .coffe-images .coffee {
-        padding: 0px !important; }
-        .section-main .coffe-images .coffee img {
-          padding-left: 31px !important;
-          width: 172px;
-          max-width: none; }
+        padding-top: 0px !important;
+        padding-right: 0px !important;
+        padding-bottom: 0px !important;
+        padding-left: 4px !important; }
     .section-main .discover-text .discover-span {
       font-size: 15px !important; }
     .section-main .pickup-delivery-section {
@@ -891,16 +907,15 @@ html,
       .section-main .pickup-delivery-section .same-day {
         padding: 0px !important; }
       .section-main .pickup-delivery-section .drive-up {
-        padding: 0px !important; }
+        padding: 0 0px 0 0px !important; }
       .section-main .pickup-delivery-section .order-pick-up {
-        padding: 0px !important; }
+        padding: 0px 0px 0px 0px !important; }
       .section-main .pickup-delivery-section .learn-more {
         padding: 0px !important;
         width: 89px !important;
         height: 89px !important; }
     .section-main .greeting-section {
-      margin-top: 10px;
-      background-size: 406px 98px !important; }
+      background-size: 406px 140px !important; }
       .section-main .greeting-section .greeting-section-text {
         margin-top: -1px !important;
         padding: 0px !important; }
@@ -928,7 +943,13 @@ html,
       padding: 0px !important; }
     .section-main .tony .test-row .image-cloumn .image-center .plant-image {
       padding-left: 4px;
-      width: 50px; }
+      width: 50px !important; }
+    .section-main .tony .test-row .outter {
+      background-color: #aa0000 !important; }
+      .section-main .tony .test-row .outter .outter-text {
+        font-size: 10px !important;
+        margin-bottom: 10px !important;
+        padding: 2px 0px 6px 0px !important; }
     .section-main .tony .test-row .available-column .available-center .available-img {
       width: 50px !important; }
     .section-main .offer-details-section {
