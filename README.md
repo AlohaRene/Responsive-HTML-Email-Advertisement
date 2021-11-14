@@ -1,4 +1,4 @@
-<p>Project highlighting a Advertisement email. Done with inline styling on the html elements with consideration for compatibility across all major email clients.</p>
+<p>Project highlighting a Advertisement Email. Done with inline styling on the html elements with consideration for compatibility across all major email clients.</p>
 
 <p>The email can be seen at <a href="https://aloharene.github.io/Responsive-HTML-Email-Advertisement/dist/index.html" rel="nofollow">Responsive-HTML-Email-Advertisement</a></p>
 
