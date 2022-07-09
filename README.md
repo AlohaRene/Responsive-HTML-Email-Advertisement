@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://aloharene.github.io/Responsive-HTML-Email-Advertisement/dist/index.html">
-    <img src="[https://i.postimg.cc/P5KfhDH1/Screenshot-2022-07-09-at-16-17-13-Target-Advertisement.png](https://i.postimg.cc/yNtyQkDz/Screenshot-2022-07-09-at-16-19-55-Target-Advertisement.png)" alt="Logo" width="600" height="900">
+    <img src="(https://i.postimg.cc/yNtyQkDz/Screenshot-2022-07-09-at-16-19-55-Target-Advertisement.png)" alt="Logo" width="600" height="900">
   </a>
 
   
