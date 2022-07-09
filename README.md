@@ -5,8 +5,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://aloharene.github.io/Responsive-HTML-Email-Advertisement/dist/index.html">
-    <img src="(https://i.postimg.cc/yNtyQkDz/Screenshot-2022-07-09-at-16-19-55-Target-Advertisement.png)" alt="Logo" width="600" height="900">
+  <a href="https://aloharene.github.io/Responsive-HTML-Promotional-Email/">
+    <img src="https://i.postimg.cc/Ss9QStb5/shades.jpg" alt="Logo" width="600" height="900">
   </a>
 
   
