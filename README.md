@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://aloharene.github.io/Responsive-HTML-Promotional-Email/">
-    <img src="https://i.postimg.cc/Ss9QStb5/shades.jpg" alt="Logo" width="600" height="900">
+    <img src="https://i.postimg.cc/gjLsB5Jv/ad.png" alt="Logo" width="600" height="900">
   </a>
 
   
